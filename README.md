@@ -2,7 +2,7 @@
 
 Created by Tyler Boudreau
 
-Check Requirements file for Lists of Packages used.
+Check Requirements file for the lists of Packages used and required to run, however the list may not be inclusive of everything, check console error logs if needed to install dependencies.
 
 This project focuses on training YOLOv8 models in python to detect 40 different classes of military aircraft, as well as an application that overlays the military aircraft classification on any desired video file. 
 
