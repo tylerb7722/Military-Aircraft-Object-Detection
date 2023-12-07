@@ -1,0 +1,22 @@
+Created by Tyler Boudreau
+
+
+Use Python 3.11.6 for compatibility.
+
+
+The Following Packages are Required to run the code:
+
+Pandas
+Numpy
+cv2
+os
+sahi
+pathlib
+ultralytics
+shutil
+tqdm
+pytorch
+
+There may be packages not listed that are required to run the code.
+
+If encountering any errors running code, check the console errors to see what packages you need to install.
