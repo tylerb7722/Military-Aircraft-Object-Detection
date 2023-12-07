@@ -1,0 +1,48 @@
+path: C:/Users/Tyler/Desktop/Orig_Data_Aircraft_Detection  # dataset root dir
+train: train_split.txt  # train images (relative to 'path') 
+val: val_split.txt  # val images (relative to 'path') 
+
+# Classes
+names:
+  0: A10
+  1: A400M
+  2: AG600
+  3: AV8B
+  4: B1
+  5: B2
+  6: B52
+  7: Be200
+  8: C130
+  9: C17
+  10: C2
+  11: C5
+  12: E2
+  13: E7
+  14: EF2000
+  15: F117
+  16: F14
+  17: F15
+  18: F16
+  19: F18
+  20: F22
+  21: F35
+  22: F4
+  23: J20
+  24: JAS39
+  25: MQ9
+  26: Mig31
+  27: Mirage2000
+  28: P3
+  29: RQ4
+  30: Rafale
+  31: SR71
+  32: Su34
+  33: Su57
+  34: Tornado
+  35: Tu160
+  36: Tu95
+  37: U2
+  38: US2
+  39: V22
+
+
