@@ -54,7 +54,7 @@ Device_Exception = True
 
 while(Device_Exception==True):
     try:
-        device = input("Please enter the Device to Render with (gpu Highly Reccommended): 'cpu' or 'gpu'\n").lower()
+        device = input("\nPlease enter the Device to Render with (gpu Highly Reccommended): 'cpu' or 'gpu'\n").lower()
         if (device=="cpu"):
             Device_Exception=False
             print("Test")
@@ -64,7 +64,7 @@ while(Device_Exception==True):
         else:
             raise ValueError
     except ValueError:
-        print("Error: Please enter only 'cpu' or 'gpu' for Device Type")
+        print("\nError: Please enter only 'cpu' or 'gpu' for Device Type")
 
 print("\nPress 'q' at any point to exit the Video Overlay\n")
 
@@ -95,7 +95,7 @@ def run(weights, source, confidence_threshhold_input, device, view_img=False, sa
     while videocapture.isOpened():
         success, frame = videocapture.read()
         if not success:
-            print("Unexpected Error:")
+            print("Unexpected Error Occurred:\n")
             break
         results = get_prediction(frame,detection_model,)
         object_prediction_list = results.object_prediction_list
